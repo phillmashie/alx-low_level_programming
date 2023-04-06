@@ -4,13 +4,12 @@
  */
 
 #include "main.h"
-
 /**
- * factorial - Returns the factorial of a given number.
- * @n: The number to find the factorial of.
+ * _strlen_recursion - Returns Length of String
+ * @s: string
  *
- * Return: If n > 0 - the factorial of n.
- *         If n < 0 - 1 to indicate an error.
+ * Return: On success 1.
+ * Base case ->  when s is 0
  */
 int _strlen_recursion(char *s)
 {
