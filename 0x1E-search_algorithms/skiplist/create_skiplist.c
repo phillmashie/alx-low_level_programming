@@ -59,4 +59,3 @@ skiplist_t *create_skiplist(int *array, size_t size)
 	init_express(list, save_size);
 	return (list);
 }
-
